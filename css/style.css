@@ -75,6 +75,11 @@
   height: 1em;
   border-radius: 50%;
   background-color: #35424f;
+  cursor: pointer;
+}
+.grades__option:active {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
 }
 
 /*# sourceMappingURL=style.css.map */

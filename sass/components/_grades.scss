@@ -15,5 +15,10 @@
         height: 1em;
         border-radius: 50%;
         background-color: variables.$senary-color;
+        cursor: pointer;
+        &:active {
+            background-color: variables.$quarantine-color;
+            color: variables.$quinary-color;
+        }
     }
 }
