@@ -1,2 +1,18 @@
 @use '../abstract/reset';
 @use '../abstract/variables';
+
+.grades {
+    display: flex;
+    justify-content: space-between;
+    &__option {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: variables.$quarantine-color;
+        padding: 1.2em;
+        width: 1em;
+        height: 1em;
+        border-radius: 50%;
+        background-color: variables.$senary-color;
+    }
+}

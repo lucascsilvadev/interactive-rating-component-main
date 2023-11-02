@@ -4,11 +4,24 @@
 .card {
     background-color: variables.$secondary-color;
     width: 85%;
-    height: 50%;
+    display: inline-block;
+    font-family: variables.$font;
+    padding: 1.5em;
+    border-radius: 16px;
+    &__icon {
+        background-color: variables.$senary-color;
+        padding: 0.5em;
+        border-radius: 36px;
+        
+    }
     &__title {
+        margin: 0.5em 0;
         color: variables.$quinary-color;
+
     }
     &__text {
+        margin: 0.5em 0;
         color: variables.$quarantine-color;
+        text-align: left;
     }
 }

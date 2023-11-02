@@ -6,7 +6,7 @@
 }
 
 .background {
-  background-color: #141519;
+  background-color: hsl(216, 12%, 8%);
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -16,15 +16,42 @@
 }
 
 .card {
-  background-color: #202731;
+  background-color: hsl(213, 19%, 18%);
   width: 85%;
-  height: 50%;
+  display: inline-block;
+  font-family: "Overpass", sans-serif;
+  padding: 1.5em;
+  border-radius: 16px;
+}
+.card__icon {
+  background-color: #35424f;
+  padding: 0.5em;
+  border-radius: 36px;
 }
 .card__title {
-  color: #fff;
+  margin: 0.5em 0;
+  color: hsl(0, 0%, 100%);
 }
 .card__text {
-  color: #7C8898;
+  margin: 0.5em 0;
+  color: hsl(217, 12%, 63%);
+  text-align: left;
+}
+
+.grades {
+  display: flex;
+  justify-content: space-between;
+}
+.grades__option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(217, 12%, 63%);
+  padding: 1.2em;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: #35424f;
 }
 
 /*# sourceMappingURL=style.css.map */
