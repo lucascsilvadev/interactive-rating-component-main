@@ -1,0 +1,14 @@
+@use '../abstract/reset';
+@use '../abstract/variables';
+
+.card {
+    background-color: variables.$secondary-color;
+    width: 85%;
+    height: 50%;
+    &__title {
+        color: variables.$quinary-color;
+    }
+    &__text {
+        color: variables.$quarantine-color;
+    }
+}
