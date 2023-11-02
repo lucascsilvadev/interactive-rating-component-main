@@ -40,5 +40,10 @@
         margin-top: 1em;
         font-weight: 400;
         letter-spacing: 2px;
+        cursor: pointer;
+        &:active {
+            background-color: variables.$quinary-color;
+            color: variables.$tertiary-color;
+        }
     }
 }
