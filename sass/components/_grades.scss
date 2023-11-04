@@ -46,4 +46,9 @@
             color: variables.$tertiary-color;
         }
     }
+    &__option-selected {
+       @extend .grades__option;
+        background-color: variables.$tertiary-color;
+        color: variables.$quinary-color;
+    }
 }

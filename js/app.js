@@ -30,9 +30,15 @@ function updateOptionSelection(option) {
 
 function updateOptionsStyle() {
     options.forEach((option) => {
-        const isSelected = option.dataset.selected === "true" ? true : false;
-        option.style.backgroundColor = isSelected ? "hsl(25, 97%, 53%)" : "#35424f";
-        option.style.color = isSelected ? "hsl(0, 0%, 100%)" : "hsl(217, 12%, 63%)";
+        if (option.innerHTML === selectedGrade) {
+            // option.style.backgroundColor = "hsl(25, 97%, 53%)"
+            // option.style.color = "hsl(0, 0%, 100%)";
+            option.classList.remove('grades__option');
+            option.classList.add('grades__option-selected')
+        } else {
+            option.classList.remove('grades__option-selected');
+            option.classList.add('grades__option');
+        }
     });
 }
 

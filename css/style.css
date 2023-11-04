@@ -53,7 +53,7 @@
   display: flex;
   justify-content: space-around;
 }
-.grades__option {
+.grades__option, .grades__option-selected {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,7 +65,7 @@
   background-color: #35424f;
   cursor: pointer;
 }
-.grades__option:active {
+.grades__option:active, .grades__option-selected:active {
   background-color: hsl(217, 12%, 63%);
   color: hsl(0, 0%, 100%);
 }
@@ -88,6 +88,10 @@
 .grades__button:active {
   background-color: hsl(0, 0%, 100%);
   color: hsl(25, 97%, 53%);
+}
+.grades__option-selected {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
 }
 
 /*# sourceMappingURL=style.css.map */
