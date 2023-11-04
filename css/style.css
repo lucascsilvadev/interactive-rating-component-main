@@ -64,6 +64,7 @@
   border-radius: 50%;
   background-color: #35424f;
   cursor: pointer;
+  transition: 0.2s;
 }
 .grades__option:active, .grades__option-selected:active {
   background-color: hsl(217, 12%, 63%);
@@ -84,6 +85,7 @@
   font-weight: 400;
   letter-spacing: 2px;
   cursor: pointer;
+  transition: 0.2s;
 }
 .grades__button:active {
   background-color: hsl(0, 0%, 100%);

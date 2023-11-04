@@ -21,6 +21,7 @@
         border-radius: 50%;
         background-color: variables.$senary-color;
         cursor: pointer;
+        transition: 0.2s;
         &:active {
             background-color: variables.$quarantine-color;
             color: variables.$quinary-color;
@@ -41,6 +42,7 @@
         font-weight: 400;
         letter-spacing: 2px;
         cursor: pointer;
+        transition: 0.2s;
         &:active {
             background-color: variables.$quinary-color;
             color: variables.$tertiary-color;
