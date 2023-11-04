@@ -29,21 +29,5 @@
         text-align: left;
         margin-bottom: 1em;
     }
-    &__button {
-        border: none;
-        width: 100%;
-        border-radius: 36px;
-        padding: 0.8em;
-        background-color: variables.$tertiary-color;
-        color: variables.$quinary-color;
-        font-size: 16px;
-        margin-top: 1em;
-        font-weight: 400;
-        letter-spacing: 2px;
-        cursor: pointer;
-        &:active {
-            background-color: variables.$quinary-color;
-            color: variables.$tertiary-color;
-        }
-    }
+    
 }

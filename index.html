@@ -15,14 +15,22 @@
       <h1 class="card__title">How did we do?</h1>
       <p class="card__text">Please let us know how we did with your support request. All feedback is appreciated 
         to help us improve our offering!</p>
-      <div class="grades">
-        <div class="grades__option" id="1" data-selected="false">1</div>
-        <div class="grades__option" id="2" data-selected="false">2</div>
-        <div class="grades__option" id="3" data-selected="false">3</div>
-        <div class="grades__option" id="4" data-selected="false">4</div>
-        <div class="grades__option" id="5" data-selected="false">5</div>
-      </div>
-      <button class="card__button" type="submit">submit</button>
+      <form class="grades">
+        <div class="grades__container">
+          <input type="radio" name="grade" value="1" id="radio-1" class="grades__radio">
+          <div class="grades__option" id="1" data-selected="false">1</div>
+          <input type="radio" name="grade" value="2" id="radio-2" class="grades__radio">
+          <div class="grades__option" id="2" data-selected="false">2</div>
+          <input type="radio" name="grade" value="3" id="radio-3" class="grades__radio">
+          <div class="grades__option" id="3" data-selected="false">3</div>
+          <input type="radio" name="grade" value="4" id="radio-4" class="grades__radio">
+          <div class="grades__option" id="4" data-selected="false">4</div>
+          <input type="radio" name="grade" value="5" id="radio-5" class="grades__radio">
+          <div class="grades__option" id="5" data-selected="false">5</div>
+        </div>
+        <button class="grades__button" type="submit">submit</button>
+      </form>
+      
     </section>
   </main>
 </body>
