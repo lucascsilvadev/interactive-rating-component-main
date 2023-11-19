@@ -26,6 +26,7 @@
             background-color: variables.$quarantine-color;
             color: variables.$quinary-color;
         }
+       
     }
     &__radio {
         display: none;
@@ -47,6 +48,7 @@
             background-color: variables.$quinary-color;
             color: variables.$tertiary-color;
         }
+       
     }
     &__option-selected {
        @extend .grades__option;

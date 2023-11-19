@@ -9,12 +9,19 @@
     padding: 1.5em;
     border-radius: 16px;
     text-align: center;
+   
+    @media (min-width: 1280px) {
+        width: 25%;
+    }
+    @media (min-width: 1440px) {
+        width: 25%;
+    }
     
     &__icon {
         background-color: variables.$senary-color;
         padding: 0.5em;
         border-radius: 36px;
-        display: block;  
+        display: block;
     }
     &__title {
         text-align: left;
@@ -27,9 +34,10 @@
         margin: 0.5em 0;
         color: variables.$quarantine-color;
         text-align: left;
-        margin-bottom: 1em;
+        margin-bottom: 0.5em;
     }
     &__image {
+        margin-top: 0.5em;
         display: none;
     }
     &__result {

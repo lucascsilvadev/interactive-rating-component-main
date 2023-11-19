@@ -41,8 +41,6 @@ function updateOptionSelection(option) {
 function updateOptionsStyle() {
     options.forEach((option) => {
         if (option.innerHTML === selectedGrade) {
-            // option.style.backgroundColor = "hsl(25, 97%, 53%)"
-            // option.style.color = "hsl(0, 0%, 100%)";
             option.classList.remove('grades__option');
             option.classList.add('grades__option-selected')
         } else {
